@@ -11,15 +11,26 @@
 
     <nav>
 
-  
-  
-      
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">
+          <img src="images/search-icon-final.svg" width="25" height="25" alt=""></button>
+        <div id="myDropdown" class="dropdown-content">
+          <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+          <a href="#about"></a>
+          <a href="#base">Base</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+          <a href="#custom">Custom</a>
+          <a href="#support">Support</a>
+          <a href="#tools">Tools</a>
+        </div>
+      </div>
+    
+
       <img src="images/search-icon-final.svg" width="25" height="25" alt="">
 
-      <img src="images/home-button-final.svg" width="25" height="25" alt="">
-      
-  
 
+      <img src="images/home-button-final.svg" width="25" height="25" alt="">
     
     </nav>
 
@@ -27,9 +38,54 @@
 
     <h1>Discover birds with Birdful, a place to learn and love nature.</h1>
 
-    <a href="draft_bird_id.html">Bird finder</a>
+    <a href="bird_id.html">Bird finder</a>
+    <img src="images/arrow.svg" alt="">
+    <img src="images/nature-scene.svg" width="1500" height="1500" alt="">
+
+    <div id="homepage-flexbox">
+      <section>
+        <h2>Identify a Bird</h2>
+        <p>A guide to UK common birds to get you started birdwatching!</p>
+        <a href="bird_id.html">Bird ID</a>
+        <img src="images/arrow.svg" alt="">
+      </section>
+
+      <section>
+        <h2>Get Birding</h2>
+        <p>Learn the tips and tricks to spot birds</p>
+        <a href="">Bird Tips</a>
+      </section>
+
+      <section>
+        <h2>Why Birdwatch?</h2>
+        <p>Explore some of the many reasons to start birdwatching</p>
+        <a href="">Find out more</a>
+      </section>
+
+      <section>
+        <h2>About Birdful</h2>
+        <p>Hear the tale of how and why I started birdwatching</p>
+        <a href="">Explore</a>
+      </section>
+   </div>
 
 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="script.js"></script>
 
   </body>
 </html>
